@@ -31,6 +31,6 @@ class CashRegister
   end
 end 
     
-    return @items
+  puts @items
     
 end 
