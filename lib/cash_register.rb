@@ -23,7 +23,8 @@ class CashRegister
   
   def apply_discount
     if @discount > 0 
-      discount_price = price * discount / 100 
+      discount_price = (price * discount) / 100 
+      
   end
      
     
